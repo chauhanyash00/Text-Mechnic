@@ -19,6 +19,8 @@ function App() {
     }, 1500);
   }
 
+  
+
 
   const toggleMode = () => {
     if (mode === 'light') {
