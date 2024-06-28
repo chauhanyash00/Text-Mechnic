@@ -32,7 +32,7 @@ function App() {
       setTimeout(() => {
         document.title = 'SIT - Admission'
       }, 200);
-      
+
       setTimeout(() => {
         document.title = 'SIT - ADMISSION'
       }, 150);
@@ -49,9 +49,9 @@ function App() {
 
   return (
     <>  
-    <Navbar title="Chauhan" aboutText="Contact Us" mode={mode}  toggleMode = {toggleMode} btnText={btnText}></Navbar>
+    <Navbar title="Text-Mechnic" aboutText="Contact Us" mode={mode}  toggleMode = {toggleMode} btnText={btnText}></Navbar>
     <Alert alert={alert}/>
-    <TextForm heading="Enter Text To Analyse Below" mode={mode} toggleMode={toggleMode} showAlert={showAlert}></TextForm>
+    <TextForm heading="Repire Your Text" mode={mode} toggleMode={toggleMode} showAlert={showAlert}></TextForm>
     </>
   );
 }
