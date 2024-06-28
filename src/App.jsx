@@ -19,7 +19,7 @@ function App() {
     }, 1500);
   }
 
-  
+
 
 
   const toggleMode = () => {
@@ -32,6 +32,7 @@ function App() {
       setTimeout(() => {
         document.title = 'SIT - Admission'
       }, 200);
+      
       setTimeout(() => {
         document.title = 'SIT - ADMISSION'
       }, 150);
